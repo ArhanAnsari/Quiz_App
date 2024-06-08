@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!---------------------------- Font-awesome icons ------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!---------------------------- Custom CSS -------------------------->
+    <link rel="stylesheet" href="./CSS/quiz.css">
+</head>
+
+<body>
+
+    <!------------- Quiz Start Button ------------->
+    <div class="start_btn">
+        <button>Start Quiz</button>
+    </div>
+    <!----------------------- Info Box Start------------------>
+    <div class="info_box">
+        <div class="info_title"><span>Some Rules of this Quiz</span></div>
+        <div class="info_list">
+            <div class="info">1. There are 5 questions</div>
+            <div class="info">2. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">3. Once you select your answer, it can't be undone.</div>
+            <div class="info">4. You can't select any option once time goes off.</div>
+            <div class="info">5. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">6. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit_btn">Exit Quiz</button>
+            <button class="continue_btn">Continue</button>
+        </div>
+    </div>
+    <!-------------------- Info Box End -------------------------->
+
+    <!-------------------- Quiz Question Box Start --------------->
+    <div class="quiz_box">
+        <header>
+            <div class="title">MCQ Questions</div>
+            <div class="timer">
+                <div class="timer_sec">00:15</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!---- Inserted questions from JavaScript --->
+            </div>
+            <div class="option_list">
+                <!---- Inserted options from JavaScript ---->
+            </div>
+        </section>
+        <footer>
+            <div>
+                <span class="total_que"></span>
+                <!--- Inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <!--------------------- Quiz Question Box End ------------------>
+    
+    <!-------------------- Result Box Start ------------------------>
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+
+        <div class="complete_text">Yay ! You've completed the Quiz!</div>
+        <div class="score_text">
+            <!--- Inserted Score Result from JavaScript -->
+        </div>
+        <div class="result_buttons">
+            <button class="restart">Restart Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <!--------------------- Result Box End -------------------------->
+
+    <!-------------- Custom JS -------->
+    <script src="./JS/quiz.js"></script>
+</body>
+
+</html>

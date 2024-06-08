@@ -1,0 +1,57 @@
+ [
+    {
+        "id":1,
+        "question": "What is the smallest header in HTML by default?",
+        "Options": [
+            "h1",
+            "h2",
+            "h4",
+            "h6"
+        ],
+        "answer": "h6"
+    },
+    {
+        "id":2,
+        "question": "How to create an unordered list in HTML?",
+        "Options": [
+            "&lt;ul&gt;",
+            "&lt;ol&gt;",
+            "&lt;li&gt;",
+            "None of the above"
+        ],
+        "answer": "<ul>"
+    },
+    {
+        "id":3,
+        "question": "Which of the following attribute is used to provide a unique name to an element?",
+        "Options": [
+            "class",
+            "type",
+            "id",
+            "None of the above"
+        ],
+        "answer": "id"
+    },
+    {
+        "id":4,
+        "question": "Which of the following tag is used to insert a line-break in HTML?",
+        "Options": [
+            "&lt;a&gt;",
+            "&lt;br&gt",
+            "&lt;pre&gt;",
+            "&lt;b&gt;"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "id":5,
+        "question": "Which of the following tag is used to define options in a drop-down selection list?",
+        "Options": [
+            "&lt;select&gt;",
+            "&lt;list&gt;",
+            "&lt;option&gt;",
+            "&lt;dropdown&gt;"
+        ],
+        "answer": "<option>"
+    }
+]
